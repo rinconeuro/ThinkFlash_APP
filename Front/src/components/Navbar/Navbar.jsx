@@ -34,7 +34,7 @@ export default function Navbar() {
 
     return (
 
-        <nav className="navbar navbar-expand-md navbar-dark bg-dark">
+        <nav className="navbar navbar-expand-md navbar-dark bg-info">
             <div className="container-fluid">
                 <Link to={token == "" || !token ? "/" : `/${username}`} className="navbar-brand ps-3 h-100 d-flex">
                     <img src='https://i.ibb.co/Phs1CSV/Logo-2-removebg-preview.png' alt="Logo" width="auto" height="60px" />
@@ -52,7 +52,7 @@ export default function Navbar() {
                 </button>
 
                 <section
-                    className={`offcanvas offcanvas-end bg-dark w-75 ${classes.offcanvas}`}
+                    className={`offcanvas offcanvas-end bg-info w-75 ${classes.offcanvas}`}
                     id="menuLateral"
                     tabIndex="-1"
                 >
