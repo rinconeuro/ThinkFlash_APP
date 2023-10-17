@@ -14,7 +14,7 @@ def send_email(to_email, user_id, username):
     body=  f"""
     Hola {username}, gracias por registrarse.😊 Por favor, confirme su email en este enlace:
 
-    https://silver-space-potato-7gwxw5797pg2pqj4-5173.app.github.dev/user/{user_id}.
+    https://miniature-lamp-jxwvq9vg75ph5554-5173.app.github.dev/user/{user_id}.
 
     Atentamente el equipo ThinkFlash."""
 
